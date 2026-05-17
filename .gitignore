@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+uv.lock
+
+4.2
+5.2
+
+.inputs/
+.mandelbrot/
