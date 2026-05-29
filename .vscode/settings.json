@@ -5,21 +5,17 @@
   ],
   "blender.addon.justMyCode": false,
   "blender.environmentVariables": {
-    // "BLENDER_USER_RESOURCES": "${workspaceFolder}\\5.2"
+    "BLENDER_USER_RESOURCES": "C:\\git\\blender\\5.2",
     "PYDEVD_DISABLE_FILE_VALIDATION": 1
   },
   "blender.executables": [
     {
       "isDefault": true,
-      "name": "Blender 5.1.1 stable",
-      "path": "C:\\Programs\\blender-5.1.1-stable\\blender.exe"
-    },
-    {
-      "name": "Blender 4.2.19 LTS",
-      "path": "C:\\Programs\\blender-4.2.19-lts\\blender.exe"
-    },
+      "name": "Blender 5.2.0 alpha",
+      "path": "C:\\Programs\\blender-5.2.0-alpha\\blender.exe"
+    }
   ],
   "python.analysis.extraPaths": [
-    "${workspaceFolder}\\5.2\\scripts\\modules",
+    "C:\\git\\blender\\5.2\\scripts\\modules",
   ]
 }
